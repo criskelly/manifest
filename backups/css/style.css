@@ -1,0 +1,222 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1em; list-style:square; }
+q:before, q:after { content:''; }
+/* end reset */
+
+@font-face {
+font-family: Kingthings_Printingkit;
+src: url('Kingthings_Printingkit.ttf')
+}
+
+@font-face {
+font-family: SpecialElite;
+src: url('SpecialElite.ttf')
+}
+
+
+/* ----- HEADER ------------------- */
+
+#header {
+	background: #456E85;
+	height: 50px;
+}
+#header-nav {
+	margin: 0 auto;
+	text-align: center;
+}
+#header-nav li {
+	width: 33%;
+	display: inline-block;
+	line-height: 50px;
+	font-size: 20px;
+	color: white;
+}
+#header-nav li:hover {
+	background: white;
+	opacity: .5;
+	color: black;
+	text-decoration: none;
+}
+
+/* ----- MAIN PAGE ------------------- */
+
+#page {
+	clear: both;
+}
+
+/* ----- SIDEBAR ------------------- */
+
+#sidebar, #content {
+	float: left;
+}
+#sidebar {
+	width: 20%;
+	margin: 10px 0 20px 20px;
+}
+#sidebar-top {
+	background: #FF9F67;
+}
+#sidebar-top h3, #sidebar-mid h3 {
+	padding: 10px 0 0 5px;	
+	font-size: 20px;
+	font-family: SpecialElite;
+}
+ #sidebar-top p, #sidebar-mid p {
+	padding: 8px 4px 4px;
+	font-family: SpecialElite;
+}
+#sidebar-mid p:last-child {
+	padding-top: 0;
+}
+#sidebar-button {
+	text-align: center;
+	width: 90%;
+	margin:	0 auto;
+}
+#sidebar-button h3 {
+	background: red;
+	border-radius: 15px;
+	box-shadow: 2px 2px 2px black;
+}
+#sidebar-button a {
+	font-size: 26px;
+	color: white;
+	display: block;
+	padding: 20px 0 12px;
+	text-shadow: 1px 1px 1px black;
+	font-family: SpecialElite;
+}
+#sidebar-mid {
+	background: #4F6B61;
+}
+#sidebar-top, #sidebar-mid {
+	margin-bottom: 10px;
+}
+#sidebar a {
+	text-decoration: none;
+}
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* ----- MAIN CONTENT ------------------- */
+
+h1 {
+	margin-left: 50px;
+	margin-bottom: 25px;
+	/*border-bottom: 2px solid black;*/
+	font-family: Kingthings_Printingkit;
+	font-size: 50px;
+}
+
+#content {
+	margin: 0 0 20px -20px;
+}
+
+.states, #provinces, h2 {
+	float: left;
+}
+#main {
+	clear: both;
+	margin-left: 35px;
+}
+#main a {
+	color: black;
+}
+ul {
+	list-style: none;
+}
+#us-heading, #can-heading {
+	font-family: Kingthings_Printingkit;
+	font-size: 24px;
+}
+#us-heading {
+	margin: 0 200px 10px 50px;
+}
+#can-heading {
+	margin: 0 0 10px 90px;
+}
+#state-listing-right {
+	border-right: 2px solid black;
+	padding-right: 25px;
+}
+#provinces {
+	margin-left: 20px;
+}
+#content li {
+	padding: 3px 3px 5px 0;
+	font-family: SpecialElite;
+	color: #4F6B61;
+}
+li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #000000;
+}
+
+
+/* ----- CITY PAGES ------------------- */
+
+
+
+/* ----- FOOTER ------------------- */
+
+#footer {
+	background: #456E85;
+	height: 100px;
+	clear: both;
+	text-align: center;
+	padding-top: 25px;
+}
+#footer h3 {
+	font-size: 26px;	
+}
+#footer h4 {
+	font-size: 14px;
+	margin-top:	10px;
+}
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+#footer-content div {
+	float: left;
+	margin-right: 10%;
+}
+
+/* ----- GLOBAL LINKS ------------------- */
+
+
+
+/* ----- JAVASCRIPT CLASSES ------------------- */
+
+.disappear {
+	display: none;
+}
+.city, .band {
+	font-size: 12px;
+}
+
+/* ----- RESPONSIVE ------------------- */
+
+img {
+	max-width: 100%;
+}
