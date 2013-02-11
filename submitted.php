@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width">
 <meta charset="UTF-8">
-<title>Get listed on The Musician's Manifest</title>
+<title>Get listed</title>
 
 <meta name="description" content="The Manifest is a nationwide directory of bands and musicians that allows you to search by city and state.  It's like a Craigslist of musicians." />
 
