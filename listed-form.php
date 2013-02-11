@@ -21,7 +21,7 @@
 
 		<form action="submitted.php" method="POST" name="get_listed" id="get_listed">
 			<h1>Get Listed</h1>
-			<h3>The world's more better way for performing musicians to be found</h3>
+			<h3>The world's most best way for performing musicians to be found</h3>
 			<p>
 				<label for="bandname">Band or Artist Name</label>
 				<input type="text" name="bandname" id="bandname">
