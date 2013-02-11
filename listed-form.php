@@ -20,7 +20,7 @@
 	<div id="content">
 
 		<form action="submitted.php" method="POST" name="get_listed" id="get_listed">
-			<h1>Get Listed in The Musician's Manifest</h1>
+			<h1>Get Listed</h1>
 			<h3>The world's easiest way for performing musicians to be found</h3>
 			<p>
 				<label for="bandname">Band or Artist Name</label>
