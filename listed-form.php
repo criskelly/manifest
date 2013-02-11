@@ -21,7 +21,7 @@
 
 		<form action="submitted.php" method="POST" name="get_listed" id="get_listed">
 			<h1>Get Listed</h1>
-			<h3>The world's way for performing musicians to be found</h3>
+			<h3>The world's most best way for performing musicians to be found</h3>
 			<p>
 				<label for="bandname">Band or Artist Name</label>
 				<input type="text" name="bandname" id="bandname">
@@ -32,7 +32,7 @@
 			</p>
 			<p>
 				<label for="self_genre">Self Described Genre</label>
-				<input name="self_genre" id="self_genre"></input>			
+				<input name="self_genre" id="self_genre"></input>
 			</p>
 			<p>
 				<label for="manifest_genre">Manifest Genre</label>
@@ -52,7 +52,7 @@
 			<p>
 				<label for="city_form">City</label>
 				<input type="text" id="city_form">
-			</p>	
+			</p>
 			<p>
 				<label for="state_form" id="state_label">State</label>
 				<select name="states" id="state_form">
@@ -107,7 +107,7 @@
 					<option value="WA">Washington</option>
 					<option value="WV">West Virginia</option>
 					<option value="WI">Wisconsin</option>
-					<option value="WY">Wyoming</option>			
+					<option value="WY">Wyoming</option>
 				</select>
 			</p>
 			<p>
