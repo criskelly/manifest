@@ -38,7 +38,7 @@
 						<li class="city">Anchorage</li>
 						<li class="city">Fairbanks</li>
 						<li class="city">Juneau</li>
-						<li class="city">Sitka</li>	
+						<li class="city">Sitka</li>
 						<li class="city">Ketchikan</li>
 					</ul>
 					<li class="state">Arizona</li>
@@ -163,7 +163,7 @@
 						<li class="city">Louisville</li>
 						<li class="city">Summit</li>
 					</ul>
-				</ul> 
+				</ul>
 				<div id="state-listing-middle" class="states">
 					<ul id="l-n-states">
 						<li class="state">Louisiana</li>
@@ -303,7 +303,7 @@
 							<li class="city"><a href="or-portland.php">Portland</a></li>
 							<li class="city">Salem</li>
 						</ul>
-						<li class="state">Pennsylvania</li>	
+						<li class="state">Pennsylvania</li>
 						<ul class="disappear">
 							<li class="city">Allentown</li>
 							<li class="city">Altoona</li>
@@ -411,14 +411,14 @@
 							<li class="city">Sheridan</li>
 						</ul>
 					</ul>
-				</div>			
+				</div>
 				<h2 id="can-heading2">CANADA</h2>
 				<div id="provinces">
 					<ul id="province-list">
 						<li class="state">Alberta</li>
 						<li class="state">British Columbia</li>
 						<li class="state">Manitoba</li>
-						<li class="state">New Brunswick</li>	
+						<li class="state">New Brunswick</li>
 						<li class="state">Newfoundland and Labrador</li>
 						<li class="state">Northwest Territories</li>
 						<li class="state">Nova Scotia</li>
